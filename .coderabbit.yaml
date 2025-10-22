@@ -289,7 +289,8 @@ knowledge_base:
   code_guidelines:
     enabled: true
     filePatterns:
-      - '**/coding-rules/*.md'
+      - 'coding-rules/PHP.md'
+      - 'coding-rules/WebCaseStudies.md'
   learnings:
     scope: auto
   issues:
