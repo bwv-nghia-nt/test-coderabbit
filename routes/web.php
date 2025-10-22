@@ -2,7 +2,8 @@
 
 use App\Http\Controllers\{
     AuthController,
-    TopController
+    TopController,
+    UserController
 };
 use Illuminate\Support\Facades\Route;
 
@@ -12,4 +13,7 @@ Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/', [TopController::class, 'index'])->name('top.index');
+    
+    // User routes
+    Route::post('/users', [UserController::class, 'store'])->name('users.store');
 });
