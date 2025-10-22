@@ -289,7 +289,7 @@ knowledge_base:
   code_guidelines:
     enabled: true
     filePatterns:
-      - '**/coding-rules/*.md'
+      - '**/coding-rules/*'
   learnings:
     scope: auto
   issues:
