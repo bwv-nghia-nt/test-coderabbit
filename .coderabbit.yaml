@@ -131,3 +131,9 @@ reviews:
 
           (Tuỳ vào độ dài của commit message mà phán đoán và commit theo pattern
           A hoặc pattern B)
+knowledge_base:
+  code_guidelines:
+    enabled: true
+    filePatterns:
+      - "coding-rules.md"
+      - "web-case-studies.md"
