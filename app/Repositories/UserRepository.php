@@ -22,7 +22,7 @@ class UserRepository extends BaseRepository
             ->where('email', $params['email'] ?? null)
             ->where('del_flg', $this->validDelFlg);
         $user = $query->get()->first();
-        if ($user && Hash::check($params['password'], $user->password)) {
+        if ($user && Hash::check($params["password"], $user->password)) {
             return $user;
         }
 

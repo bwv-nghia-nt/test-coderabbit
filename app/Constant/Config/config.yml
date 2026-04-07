@@ -1,0 +1,74 @@
+firewall:
+    DEFAULT:
+        Log: ~
+        Test: ~
+        Arr: [callBatchPng01]
+        Clt: [clt04]
+    ADMIN:
+        Common: ~
+        Hey: [hey01, hey02, hey03, checkExistsHeyaCd]
+        Web: [web01, web02, web03, clearSearch]
+        Dlv: ~
+        Mur: [mur01, mur02, mur03, mur04]
+        Iot: ~
+        Cmf: ~
+    SUPPORT:
+        Common: ~
+        Hey: [hey01, hey02, hey03, checkExistsHeyaCd]
+        Sap: ~
+        Bil: ~
+        Cal: [cal01, cal02, cal03, cal04, getBukkenInformation, bkn02, bkn01, cus01]
+        Rol: [rol01, rol01Popup, delete]
+        Pdfview: ~
+        Pcc: ~
+        Pco: ~
+        Dhi: ~
+        Pap: ~
+        Mal: ~
+        Web: ~
+        Mur: [mur01, mur02, mur03, mur04]
+        Evc: [evc02, evc03, evc04]
+        Add: [add01, add02, delete]
+        Iot: ~
+        Cnc: [cnc01]
+        Cmf: ~
+    PARTNER:
+        Top: ~
+        Usr: [usr01, usr02, usr03, usr04, delete, isExistsLoginId]
+        Prt: [prt01, prt02, prt04]
+        Arr: ~
+        Del: ~
+        Sap: ~
+        Art: ~
+        Cmf: [
+          'dlv02', 'dlv03', 'dlv04', 'dlv05', 'dlv06', 'dlv07', 'dlv08', 'dlv09', 'dlv10', 'dlv11', 'dlv12', 'dlv13', 'dlv15', 'dlv16', +
+          'cmf02', 'cmf03', 'cmf04', 'cmf05', 'cmf01', 'cmf06',
+        ]
+        Rep: [rep02]
+        Pro: [pro03, pro04, getRoomListPartialView]
+        Hey: [hey01]
+        Ntc: ~
+        Pdfview: ~
+        Web: [web01, web02, web03, clearSearch]
+        Dlv: ~
+        Add: [add02]
+        Cnc: [cnc02]
+    SUPPORT_EXECUTIVE:
+        Top: ~
+        Usr: [usr01, usr02, usr04, isExistsLoginId]
+        Arr: ~
+        Hey: [hey01]
+        Sap: ~
+        Pro: [pro03, resetPro03, getEigyosyoList, pro04, delete, deleteRoom, deleteHistory, getRoomListPartialView]
+        Cal: ~
+        Doc: ~
+        Art: ~
+        Ntc: [ntc01, ntc04, getPdf]
+        Eoh: [eoh01, eoh02, eoh03]
+        Png: ~
+        Pdfview: ~
+        Exp: ~
+        Web: [web01, web02, web03, clearSearch]
+        Dlv: ~
+        Umx: [umx03, updateUmx03Ids]
+        Cmf: ~
