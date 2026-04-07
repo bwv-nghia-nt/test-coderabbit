@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\User\CreateUserRequest;
-use App\Libs\ConfigUtil;
 use App\Services\UserService;
 
 class UserController extends Controller
